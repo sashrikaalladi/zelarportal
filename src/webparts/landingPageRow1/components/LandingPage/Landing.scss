@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.carousel-indicators{
+  font-size: 20px;
+}
+
+.Containers {
+  span{
+    display: none;
+   word-spacing:10px;
+   text-decoration: none;
+ }
+  min-width: 100% !important;
+  padding: 0px;
+  height: 265px;
+  color: black;
+  font-size: 12px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  text-align: center;
+}
+
+.birthday {
+  margin-left: 20px;
+  align-content: center;
+}
+
+.rowMain {
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  transition: 0.3s;
+  width: 98.7%;
+  height: 265px;
+  overflow: hidden;
+  background-color: #F0F8FF;
+  margin: 4px;
+  border: 1px solid #F0F8FF;
+  border-radius: 20px;
+}
+
+.row1  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.row2 {
+  background-color: #345978;
+  position: relative;
+  z-index: 9999;
+  height: 29px;
+  top: 0px;
+  color: white;
+}
+
+
+.row3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carousel-item:not(.active) {
+  display: none;
+}
+.row4{
+  width:99%;
+  height: 265px;
+  background-image:url("https://i.pinimg.com/originals/38/11/6a/38116ace464a15fad0ab919834538eba.gif");
+}
+
+.row4NoBday{
+  width:99%;
+  height: 265px;
+
+}
+.row5{
+  font: 1em sans-serif;
+  text-align: justify;
+  width: 342px;
+  padding: 2px 18px;
+}
+ul.bullets{
+  list-style-type: square;
+  font-size: 16px;
+}
+.marqueetag{
+  width: 400px;
+  height: 333px;
+  padding: 25px;
+  margin: -12px -2px;
+}
